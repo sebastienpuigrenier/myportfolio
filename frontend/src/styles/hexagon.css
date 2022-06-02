@@ -164,13 +164,13 @@
   width: var(--hex-width); /* = 100 / 5 */
   margin-right: var(--hex-margin-li);
 }
-#hexGrid li:nth-child(3) {
+#hexGrid li:nth-child(6n+4) {
   /* first hexagon of even rows */
   margin-left: calc(
     (var(--hex-width) + var(--hex-margin-li)) / 2
   ); /* = width of .hex / 2  to indent even rows */
 }
-#hexGrid li:nth-child(1n + 3) {
+#hexGrid li:nth-child(1n + 4) {
   /* first hexagon of even rows */
   margin-top: -3rem;
 }

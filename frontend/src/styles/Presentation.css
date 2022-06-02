@@ -1,0 +1,31 @@
+header {
+  padding-top: 5rem;
+  width: 100%;
+}
+
+.header-content {
+  margin: 0 auto;
+}
+
+.header-photo {
+  width: 20%;
+  border: 0.2rem solid var(--color-light_text);
+  border-radius: 1.5rem;
+  margin-right: 2rem;
+}
+
+.header-text {
+  text-align: justify;
+}
+
+@media (min-width: 800px) {
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-text {
+    width: 60%;
+  }
+}

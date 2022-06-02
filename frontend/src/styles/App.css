@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Gudea:ital,wght@0,400;0,700;1,400&family=Ubuntu:ital,wght@0,400;0,700;1,700&display=swap");
+
+:root {
+  --NavBar-heigth: 4rem;
+
+  --color-dark_background: #222222;
+  --color-light_text: #f5f5f5;
+  --color-turquoise: #3bacb6;
+
+  --font-h1: "Ubuntu", sans-serif;
+  --font-h2: "Abel", sans-serif;
+  --font-p: "Gudea", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  scroll-behavior: smooth;
+  font-family: var(--font-paragraph);
+  color: var(--color-black);
+}
+
+body {
+  background-color: var(--color-dark_background);
+  color: var(--color-light_text);
+}
+
+h1 {
+  font-family: var(--font-h1);
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0.6rem 0;
+}
+
+h2 {
+  font-family: var(--font-h2);
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+p {
+  font-family: var(--font-p);
+  padding-bottom: 0.6rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  height: 0.1rem;
+  border: 0;
+  width: 100vw;
+  background-color: #333333;
+}
+
+.main-container {
+  width: clamp(300px, 70%, 1200px);
+  margin: 0 auto;
+}
+
+.app-container {
+  padding-top: var(--NavBar-heigth);
+}
+
+section {
+  padding-top: 10rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  padding: 30px 0 8px;
+  position: relative;
+  z-index: 1;
+}
+
+.section-title::before {
+  content: "";
+  position: absolute;
+  left: 3rem;
+  bottom: 0.6rem;
+  height: 0.8rem;
+  transform: skew(25deg) translateX(-5rem);
+  background: var(--color-turquoise);
+  z-index: -1;
+}

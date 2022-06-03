@@ -12,96 +12,96 @@ function Portfolio() {
         <ul id="hexGrid">
           <li>
             <HexagonImg
-              title="Sébastien Puigrenier"
-              desc="Développeur Web"
+              title="Site 1"
+              desc="description"
               link=""
               imgBackgroundURL="../src/assets/HandyOldZ.png"
             />
           </li>
           <li>
             <HexagonImg
-              title="Sébastien Puigrenier"
-              desc="Développeur Web"
+              title="Site 2"
+              desc="description"
               link=""
               imgBackgroundURL="../src/assets/HandyOldZ.png"
             />
           </li>
           <li>
             <HexagonImg
-              title="Sébastien Puigrenier"
-              desc="Développeur Web"
+              title="Site 3"
+              desc="description"
               link=""
               imgBackgroundURL="../src/assets/HandyOldZ.png"
             />
           </li>
           <li>
             <HexagonImg
-              title="Sébastien Puigrenier"
-              desc="Développeur Web"
+              title="Site 4"
+              desc="description"
               link=""
               imgBackgroundURL="../src/assets/HandyOldZ.png"
             />
           </li>
           <li>
             <HexagonImg
-              title="Sébastien Puigrenier"
-              desc="Développeur Web"
+              title="Site 5"
+              desc="description"
               link=""
               imgBackgroundURL="../src/assets/HandyOldZ.png"
             />
           </li>
           <li>
             <HexagonImg
-              title="Sébastien Puigrenier"
-              desc="Développeur Web"
+              title="Site 6"
+              desc="description"
               link=""
               imgBackgroundURL="../src/assets/HandyOldZ.png"
             />
           </li>
           <li>
             <HexagonImg
-              title="Sébastien Puigrenier"
-              desc="Développeur Web"
+              title="Site 7"
+              desc="description"
               link=""
               imgBackgroundURL="../src/assets/HandyOldZ.png"
             />
           </li>
           <li>
             <HexagonImg
-              title="Sébastien Puigrenier"
-              desc="Développeur Web"
+              title="Site 8"
+              desc="description"
               link=""
               imgBackgroundURL="../src/assets/HandyOldZ.png"
             />
           </li>
           <li>
             <HexagonImg
-              title="Sébastien Puigrenier"
-              desc="Développeur Web"
+              title="Site 9"
+              desc="description"
               link=""
               imgBackgroundURL="../src/assets/HandyOldZ.png"
             />
           </li>
           <li>
             <HexagonImg
-              title="Sébastien Puigrenier"
-              desc="Développeur Web"
+              title="Site 10"
+              desc="description"
               link=""
               imgBackgroundURL="../src/assets/HandyOldZ.png"
             />
           </li>
           <li>
             <HexagonImg
-              title="Sébastien Puigrenier"
-              desc="Développeur Web"
+              title="Site 11"
+              desc="description"
               link=""
               imgBackgroundURL="../src/assets/HandyOldZ.png"
             />
           </li>
           <li>
             <HexagonImg
-              title="Sébastien Puigrenier"
-              desc="Développeur Web"
+              title="Site 12"
+              desc="description"
               link=""
               imgBackgroundURL="../src/assets/HandyOldZ.png"
             />

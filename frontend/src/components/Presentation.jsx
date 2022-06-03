@@ -12,7 +12,7 @@ function Presentation() {
           title="Sébastien Puigrenier"
           desc="Développeur Web"
           link=""
-          imgBackgroundURL="../src/assets/HandyOldZ.png"
+          imgBackgroundURL="../src/assets/avatar.png"
         />
         <div className="header-text">
           <h2>Developpeur Web et web mobile</h2>

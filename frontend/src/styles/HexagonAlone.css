@@ -1,0 +1,37 @@
+
+.hex-container-alone{
+  --l-alone: calc((var(--hex-dim-alone)/2));
+  --ri-alone: calc(1.7320508075688772935274463415059*var(--l-alone));
+  display: grid;
+  place-content: center;
+  grid-template-rows: repeat(var(--n-rows-alone), var(--ri-alone));
+  grid-template-columns: repeat(calc(var(--n-cols-alone)*2), var(--l-alone));
+  margin: 0;
+}
+
+.hex-cell-alone {
+  overflow: hidden;
+  grid-column-end: span 2;
+  transform: scale(110%) rotate(90deg);
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+
+}
+
+.hex-cell-alone:nth-child(5n + 4){
+  grid-column-start: 2;
+}
+
+.hex-cell-alone img {
+  --hl: 1;
+  height: var(--hex-dim-alone);
+  width: var(--hex-dim-alone);
+  margin: calc(-1*var(--hex-dim-alone) / 16) 0 0 0;
+  object-fit: cover;
+  transform: rotate(-90deg);
+  filter: brightness(calc(.6*(1 + var(--hl-alone))));
+  transition: .7s;
+}
+
+.hex-cell img:hover {
+   --hl-alone: 0
+  }

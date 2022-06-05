@@ -1,6 +1,7 @@
 import React from "react";
 
-import HexagonImg from "@components/HexagonImg";
+import avatar from "@assets/avatar.png";
+import HexagonAlone from "@components/HexagonAlone";
 
 import "@styles/Presentation.css";
 
@@ -8,12 +9,7 @@ function Presentation() {
   return (
     <header>
       <div className="main-container header-content">
-        <HexagonImg
-          title="Sébastien Puigrenier"
-          desc="Développeur Web"
-          link=""
-          imgBackgroundURL="../src/assets/avatar.png"
-        />
+        <HexagonAlone hexdim="15rem" nrows="1" ncols="1" img={avatar} />
         <div className="header-text">
           <h2>Developpeur Web et web mobile</h2>
           <h1>Sébastien Puigrenier</h1>

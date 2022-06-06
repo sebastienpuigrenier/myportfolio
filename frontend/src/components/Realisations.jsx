@@ -1,6 +1,7 @@
 import React from "react";
+import realisationJSON from "@assets/realisations.json";
 
-import HexagonGrid3x3 from "@components/HexagonGrid3x3";
+import HexagonGrid from "@components/HexagonGrid";
 
 import "@styles/Realisations.css";
 
@@ -8,7 +9,7 @@ function Realisations() {
   return (
     <section className="main-container Realisations">
       <h2 className="section-title">Réalisations</h2>
-      <HexagonGrid3x3 hexdim="20vw" nrows="3" ncols="3" />
+      <HexagonGrid hexdim="15rem" stringncols="3" jsonFile={realisationJSON} />
     </section>
   );
 }

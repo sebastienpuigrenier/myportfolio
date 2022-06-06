@@ -5,7 +5,7 @@ import Footer from "@components/Footer";
 import Home from "@pages/Home";
 
 import "@styles/App.css";
-import "@styles/HexagonGrid3x3.css";
+import "@styles/HexagonGrid.css";
 import "@styles/HexagonAlone.css";
 
 function App() {

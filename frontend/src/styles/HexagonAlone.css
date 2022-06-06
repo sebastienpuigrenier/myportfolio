@@ -6,7 +6,7 @@
   place-content: center;
   grid-template-rows: repeat(var(--n-rows-alone), var(--ri-alone));
   grid-template-columns: repeat(calc(var(--n-cols-alone)*2), var(--l-alone));
-  margin: 0;
+  margin-bottom: 3rem;
 }
 
 .hex-cell-alone {

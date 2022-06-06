@@ -1,0 +1,47 @@
+[
+  {
+    "img": "./src/assets/trombinoscope.png",
+    "title":"Trombinoscope",
+    "techno": "HTML - CSS",
+    "isgithublink": true,
+    "github": "https://github.com/bebaile/projet1-group3-outsiders",
+    "islink": true,
+    "link": "https://sebastienpuigrenier.github.io/projet1-group3-outsiders/"
+  },
+  {
+    "img": "./src/assets/moviz.png",
+    "title":"Moviz",
+    "techno": "React - API - ExpressJS",
+    "isgithublink": true,
+    "github": "https://github.com/WildCodeSchool/2022-03-JS-RemoteFR-Outsiders-P2-Team-Kraken",
+    "islink": false,
+    "link": ""
+  },
+  {
+    "img": "./src/assets/work_in_progress.png",
+    "title":"Projet Client réel",
+    "techno": "React - ExpressJS",
+    "isgithublink": false,
+    "github": "",
+    "islink": false,
+    "link": ""
+  },
+  {
+    "img": "./src/assets/trombinoscope.png",
+    "title":"Trombinoscope",
+    "techno": "React",
+    "isgithublink": true,
+    "github": "https://github.com/bebaile/projet1-group3-outsiders",
+    "islink": true,
+    "link": "https://sebastienpuigrenier.github.io/projet1-group3-outsiders/"
+  },
+  {
+    "img": "./src/assets/hackathon.png",
+    "title":"Hackathon - Save Ourselves",
+    "techno": "React",
+    "isgithublink": true,
+    "github": "https://github.com/KevinLavigne/hackathon",
+    "islink": false,
+    "link": ""
+  }
+]

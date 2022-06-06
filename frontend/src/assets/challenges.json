@@ -1,0 +1,21 @@
+[
+  {
+    "img": "./src/assets/frontendmentor.png",
+    "title":"FrontendMentor",
+    "techno": "HTML - CSS",
+    "isgithublink": false,
+    "github": "",
+    "islink": true,
+    "link": "https://www.frontendmentor.io/profile/sebastienpuigrenier/solutions"
+  },
+  {
+    "img": "./src/assets/codewars.png",
+    "title":"codewars",
+    "techno": "Javascript",
+    "isgithublink": false,
+    "github": "",
+    "islink": true,
+    "link": "https://www.codewars.com/users/sebastienpuigrenier"
+  }
+
+]

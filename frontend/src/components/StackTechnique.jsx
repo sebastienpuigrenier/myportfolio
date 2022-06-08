@@ -7,7 +7,6 @@ import {
   FaReact,
   FaNode,
   FaGithub,
-  FaDatabase,
 } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 
@@ -24,7 +23,6 @@ function StackTechnique() {
       <p>
         <FaGithub className="stack-icon" />
         <FaNode className="stack-icon" />
-        <FaDatabase className="stack-icon" />
         <SiMysql className="stack-icon" />
       </p>
     </section>

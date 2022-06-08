@@ -39,10 +39,10 @@ export default function HexagonGrid({ hexdim, stringncols, jsonFile }) {
           case i === ncols:
             isfirstoddrow = true;
             break;
-          case ncols === 1 && i % 2 === 0:
-            isfirstoddrow = false;
+          case ncols === 1 && i % 2 !== 0:
+            isfirstoddrow = true;
             break;
-          case i > ncols && ((i - ncols) % 2) * ncols - 1 === 0:
+          case ncols !== 1 && i > ncols && ((i - ncols) % 2) * ncols - 1 === 0:
             isfirstoddrow = true;
             break;
           default:

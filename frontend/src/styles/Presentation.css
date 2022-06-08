@@ -29,3 +29,112 @@ header {
     width: 60%;
   }
 }
+
+.avatar {
+  margin-right: 1rem;
+}
+
+:root{
+  --hex-button-size: 5rem;
+  --sqrt3: 1.7320508075688772;
+
+}
+
+.header-buttons{
+  padding-left: 1rem;
+}
+
+
+.hex-button {
+  cursor: pointer;
+  width: calc(var(--hex-button-size) * 2);
+  height: calc(var(--hex-button-size) * var(--sqrt3));
+  margin: 2.5rem auto;
+}
+
+.hex-button {
+  transform: rotate(30deg);
+}
+
+.hex-button p{
+  text-align: center;
+  position: relative;
+  left: 5%;
+  top: calc(var(--hex-button-size) * var(--sqrt3) * 0.5 - 20%);
+  transform: rotate(-90deg);
+}
+
+.hex-button-hex:first-child {
+  transform: scale(0.9);
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  z-index: 0;
+}
+
+.hex-button-hex:last-child {
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  z-index: 1;
+}
+
+.hex-button-hex {
+  position: absolute;
+  top: 0;
+  left: calc(var(--hex-button-size) / 2);
+  width: var(--hex-button-size);
+  height: calc(var(--hex-button-size) * var(--sqrt3));
+  opacity: 0.5;
+}
+
+.hex-button-hex div:nth-child(1) {
+  transform: rotate(0deg);
+}
+.hex-button-hex div:nth-child(2) {
+  transform: rotate(60deg);
+}
+.hex-button-hex div:nth-child(3) {
+  transform: rotate(120deg);
+}
+
+.hex-button-hex div {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  width: var(--hex-button-size);
+  height: calc(var(--hex-button-size) * var(--sqrt3));
+  transform-origin: center center;
+}
+
+.hex-button-hex div:before {
+  top: 0;
+}
+
+.hex-button-hex div:before {
+  content: " ";
+  position: absolute;
+  background: var(--color-turquoise);
+  width: 100%;
+  height: 1px;
+  transition: height 0.3s cibuc-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.hex-button-hex div:after {
+  bottom: 0;
+}
+
+.hex-button-hex div:after {
+  content: " ";
+  position: absolute;
+  background: var(--color-turquoise);
+  width: 100%;
+  height: 1px;
+  transition: height 0.3s cibuc-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.hex-button:hover .hex-button-hex:first-child {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.hex-button:hover .hex-button-hex:first-child div::before,
+.hex-button:hover .hex-button-hex:first-child div::after {
+  height: calc(var(--hex-button-size) / 10);
+}

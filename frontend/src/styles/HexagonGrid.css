@@ -37,6 +37,10 @@
   opacity: 0;
 }
 
+.noimg{
+  opacity: 1 !important;
+}
+
 .hex-title {
   text-align: center;
   color: #F5CE95;

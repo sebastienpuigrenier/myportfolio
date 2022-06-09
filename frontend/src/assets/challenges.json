@@ -1,6 +1,6 @@
 [
   {
-    "img": "./public/frontendmentor.png",
+    "img": "../img/frontendmentor.png",
     "title":"FrontendMentor",
     "techno": "HTML - CSS",
     "isgithublink": false,
@@ -9,7 +9,7 @@
     "link": "https://www.frontendmentor.io/profile/sebastienpuigrenier/solutions"
   },
   {
-    "img": "./public/codewars.png",
+    "img": "../img/codewars.png",
     "title":"codewars",
     "techno": "Javascript",
     "isgithublink": false,

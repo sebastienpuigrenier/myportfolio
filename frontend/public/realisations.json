@@ -1,6 +1,6 @@
 [
   {
-    "img": "./src/assets/trombinoscope.png",
+    "img": "./public/trombinoscope.png",
     "title":"Trombinoscope",
     "techno": "HTML - CSS",
     "isgithublink": true,
@@ -9,7 +9,7 @@
     "link": "https://sebastienpuigrenier.github.io/projet1-group3-outsiders/"
   },
   {
-    "img": "./src/assets/moviz.png",
+    "img": "./public/moviz.png",
     "title":"Moviz",
     "techno": "React - API - ExpressJS",
     "isgithublink": true,
@@ -18,7 +18,7 @@
     "link": ""
   },
   {
-    "img": "./src/assets/work_in_progress.png",
+    "img": "./public/work_in_progress.png",
     "title":"Projet Client réel",
     "techno": "React - ExpressJS",
     "isgithublink": false,
@@ -27,7 +27,7 @@
     "link": ""
   },
   {
-    "img": "./src/assets/trombinoscope.png",
+    "img": "./public/trombinoscope.png",
     "title":"Trombinoscope",
     "techno": "React",
     "isgithublink": true,
@@ -36,7 +36,7 @@
     "link": "https://sebastienpuigrenier.github.io/projet1-group3-outsiders/"
   },
   {
-    "img": "./src/assets/hackathon.png",
+    "img": "./public/hackathon.png",
     "title":"Hackathon - Save Ourselves",
     "techno": "React",
     "isgithublink": true,

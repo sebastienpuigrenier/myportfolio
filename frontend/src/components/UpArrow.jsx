@@ -1,6 +1,6 @@
 import React from "react";
 
-import "@styles/UpArrow.css"
+import "@styles/UpArrow.css";
 
 function UpArrow() {
   const handleOnClick = () => {

@@ -30,7 +30,7 @@ function Presentation() {
           </p>
         </div>
         <div className="header-buttons">
-          <a href="./src/assets/CV_-_Sebastien_Puigrenier.pdf" target="_blank">
+          <a href="../doc/CV_-_Sebastien_Puigrenier.pdf" target="_blank">
             <div className="hex-button">
               <div className="hex-button-hex">
                 <div />

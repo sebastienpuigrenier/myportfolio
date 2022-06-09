@@ -1,0 +1,31 @@
+
+/* Arrow & Hover Animation */
+#more-arrows {
+  float: right;
+	width: 75px;
+  height: 65px;
+  margin: 1rem 5rem 2rem 2rem;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+#more-arrows:hover .arrow-bottom {
+  transform: translateY(-18px);
+}
+
+#more-arrows:hover .arrow-top {
+  transform: translateY(18px);
+}
+
+polygon {
+  fill: var(--color-turquoise);
+  transition: all .2s ease-out;
+}
+
+polygon .arrow-middle {
+	opacity: 0.75;
+}
+
+polygon .arrow-top {
+	opacity: 0.5
+}

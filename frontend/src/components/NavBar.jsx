@@ -11,10 +11,9 @@ function NavBar() {
         </div>
         <ul>
           <li>
-            <h2>Home</h2>
-          </li>
-          <li>
-            <h2>Contact</h2>
+            <a href="mailto:sebastien.puigrenier@gmail.com?subject=Contact suite à la visite du portfolio ">
+              <h2>Contact</h2>
+            </a>
           </li>
         </ul>
       </div>

@@ -16,15 +16,29 @@ function StackTechnique() {
   return (
     <section className="main-container stack-technique">
       <h2 className="section-title">Stack Technique</h2>
-      <p>
-        <FaHtml5 className="stack-icon" /> <FaCss3 className="stack-icon" />
-        <FaJsSquare className="stack-icon" /> <FaReact className="stack-icon" />
-      </p>
-      <p>
-        <FaGithub className="stack-icon" />
-        <FaNode className="stack-icon" />
-        <SiMysql className="stack-icon" />
-      </p>
+      <div>
+        <div className="stack-icon">
+          <FaHtml5 />
+        </div>
+        <div className="stack-icon">
+          <FaCss3 />
+        </div>
+        <div className="stack-icon">
+          <FaJsSquare />
+        </div>
+        <div className="stack-icon">
+          <FaReact />
+        </div>
+        <div className="stack-icon">
+          <FaGithub />
+        </div>
+        <div className="stack-icon">
+          <FaNode />
+        </div>
+        <div className="stack-icon">
+          <SiMysql />
+        </div>
+      </div>
     </section>
   );
 }

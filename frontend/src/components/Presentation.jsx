@@ -10,7 +10,7 @@ function Presentation() {
     <header>
       <div className="main-container header-content">
         <div className="avatar">
-          <HexagonAlone hexdim="15rem" nrows="1" ncols="1" img={avatar} />
+          <HexagonAlone hexdim="15rem" img={avatar} />
         </div>
         <div className="header-text">
           <h2>Developpeur Web et web mobile</h2>

@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 
 import NavBar from "@components/NavBar";
-import Footer from "@components/Footer";
+import UpArrow from "@components/UpArrow";
 import Home from "@pages/Home";
 
 import "@styles/App.css";
@@ -14,10 +14,10 @@ function App() {
       <NavBar />
       <div className="app-container">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/*" element={<Home />} />
         </Routes>
       </div>
-      <Footer />
+      <UpArrow />
     </div>
   );
 }

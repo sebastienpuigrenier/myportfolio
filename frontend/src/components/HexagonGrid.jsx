@@ -20,14 +20,29 @@ export default function HexagonGrid({ hexdim, stringncols, jsonFile }) {
     }
   }
 
-  const nrows =
+  let nrows = 1;
+  switch (true) {
+    case ncols === 1:
+      nrows = jsonFile.length;
+      break;
+    case ncols >= jsonFile.length:
+      nrows = 1;
+      break;
+    default:
+      nrows = Math.ceil(2 * (jsonFile.length / (ncols * 2 - 1)));
+  }
+  /*
     ncols === 1
       ? jsonFile.length
+      : jsonFile.length < ncols
+      ? 1
       : Math.ceil(2 * (jsonFile.length / (ncols * 2 - 1)));
-
+*/
   const hexContainerDynamicStyle = {
     gridTemplateRows: `repeat(${nrows}, ${ri}${dim[1]})`,
-    gridTemplateColumns: `repeat(${ncols * 2 + 1}, ${l}${dim[1]})`,
+    gridTemplateColumns: `repeat(${ncols === 1 ? 3 : ncols * 2}, ${l}${
+      dim[1]
+    })`,
     paddingTop: `${l * 0.4}`,
   };
 

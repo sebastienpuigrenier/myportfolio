@@ -23,18 +23,35 @@ export default function Hexagon({ dim, l, ri, objectJSON, isfirstoddrow }) {
       className="hex-cell"
       style={isfirstoddrow ? { gridColumnStart: 2 } : {}}
     >
-      <a href={objectJSON.link} target="_blank" rel="noreferrer">
+      {objectJSON.islink ? (
+        <a href={objectJSON.link} target="_blank" rel="noreferrer">
+          <img
+            src={objectJSON.img}
+            alt={objectJSON.title}
+            style={imgDynamicStyle}
+          />
+        </a>
+      ) : (
         <img
           src={objectJSON.img}
-          alt="page d'accueil du trombinoscope"
+          alt={objectJSON.title}
           style={imgDynamicStyle}
         />
-      </a>
+      )}
       <div>
-        <h1 className="hex-title" style={hexTitleDynamicStyle}>
-          {objectJSON.title}
-          <br /> {objectJSON.techno}
-        </h1>
+        {objectJSON.islink ? (
+          <a href={objectJSON.link} target="_blank" rel="noreferrer">
+            <h1 className="hex-title" style={hexTitleDynamicStyle}>
+              {objectJSON.title}
+              <br /> {objectJSON.techno}
+            </h1>
+          </a>
+        ) : (
+          <h1 className="hex-title" style={hexTitleDynamicStyle}>
+            {objectJSON.title}
+            <br /> {objectJSON.techno}
+          </h1>
+        )}
       </div>
       <div>
         <p className="hex-text" style={hexTextDynamicStyle}>

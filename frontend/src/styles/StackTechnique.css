@@ -2,19 +2,19 @@
   width: 10rem;
 }
 
-.stack-icon{
-  width: 6rem;
-  font-size: 6rem;
-}
-
-.stack-technique p{
-  width: calc(100% - 8rem);
+.stack-technique div{
   display: flex;
-  justify-content: space-around;
-  padding: 2rem 0;
-  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.stack-technique p:nth-child(2n+1){
-  margin-left: 8rem;
+.stack-icon{
+  margin: 2rem 1rem;
+  font-size: 5rem;
+}
+
+@media (min-width: 768px) {
+  .stack-icon{
+    font-size: 10rem;
+  }
 }

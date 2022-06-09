@@ -1,13 +1,11 @@
 import React from "react";
 
-export default function HexagonAlone({ img, hexdim, nrows, ncols }) {
+export default function HexagonAlone({ img, hexdim }) {
   return (
     <div
       className="hex-container-alone"
       style={{
         "--hex-dim-alone": hexdim,
-        "--n-rows-alone": nrows,
-        "--n-cols-alone": ncols,
       }}
     >
       <div className="hex-cell-alone">

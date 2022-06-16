@@ -6,7 +6,10 @@
     "isgithublink": true,
     "github": "https://github.com/bebaile/projet1-group3-outsiders",
     "islink": true,
-    "link": "https://sebastienpuigrenier.github.io/projet1-group3-outsiders/"
+    "link": "https://sebastienpuigrenier.github.io/projet1-group3-outsiders/",
+    "award": false,
+    "awardimg": "",
+    "awardtxt": ""
   },
   {
     "img": "../img/moviz.png",
@@ -15,7 +18,10 @@
     "isgithublink": true,
     "github": "https://github.com/WildCodeSchool/2022-03-JS-RemoteFR-Outsiders-P2-Team-Kraken",
     "islink": false,
-    "link": ""
+    "link": "",
+    "award": false,
+    "awardimg": "",
+    "awardtxt": ""
   },
   {
     "img": "../img/work_in_progress.png",
@@ -24,7 +30,10 @@
     "isgithublink": false,
     "github": "",
     "islink": false,
-    "link": ""
+    "link": "",
+    "award": false,
+    "awardimg": "",
+    "awardtxt": ""
   },
   {
     "img": "../img/trombinoscope.png",
@@ -33,7 +42,10 @@
     "isgithublink": true,
     "github": "https://github.com/bebaile/projet1-group3-outsiders",
     "islink": true,
-    "link": "https://sebastienpuigrenier.github.io/projet1-group3-outsiders/"
+    "link": "https://sebastienpuigrenier.github.io/projet1-group3-outsiders/",
+    "award": false,
+    "awardimg": "",
+    "awardtxt": ""
   },
   {
     "img": "../img/hackathon.png",
@@ -42,6 +54,9 @@
     "isgithublink": true,
     "github": "https://github.com/KevinLavigne/hackathon",
     "islink": false,
-    "link": ""
+    "link": "",
+    "award": true,
+    "awardimg": "./img/presentationaward.png",
+    "awardtxt": "Award de la meilleur présentation"
   }
 ]

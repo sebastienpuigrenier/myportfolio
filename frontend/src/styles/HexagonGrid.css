@@ -16,7 +16,7 @@
   align-items: center;
 }
 
-.hex-cell img {
+.hex-cell .backgroundimg {
   --zoom: 0;
   --hl: 1;
   object-fit: cover;
@@ -25,13 +25,14 @@
   filter: brightness(calc(.6*(1 + var(--hl))));
 }
 
-.hex-cell:hover img{
+.hex-cell:hover .backgroundimg{
   --zoom: 1;
   --hl: 0;
 }
   
-.hex-cell h1, .hex-cell p {
-  padding: 5%;
+.hex-cell h1,
+.hex-cell p {
+  padding-top: 1;
   box-sizing:border-box;
   font-weight: 300;
   opacity: 0;
@@ -47,31 +48,50 @@
   font-weight: 700;
   text-transform: capitalize;
   z-index: 1;
-  position: relative;
-  transform: rotate(-90deg);
 }
 
 .hex-text {
   text-align: center;
   font-size: 0.8rem;
   text-transform: uppercase;
-  position: relative;
-  transform: rotate(-90deg);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.hex-title:hover,
-.hex-text:hover,
-.hex-cell:hover h1, .hex-cell:focus h1,
-.hex-cell:hover p, .hex-cell:focus p{
-opacity:1;
-transition: 0.8s;
+.hex-award img{
+  width: 100%;
+  opacity: 0;
+}
+
+.hex-award p{
+  font-size: 0.9rem;
+}
+.hex-award-img{
+  width: 40%;
+}
+.hex-award {
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+
+}
+
+.hoverdiv {
+  position: relative;
+  transform: rotate(-90deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
 }
 
 .hex-title:hover,
 .hex-text:hover,
-.hex-cell:hover .hexLink {
-  opacity: 1;
+.hex-cell:hover h1, .hex-cell:focus h1,
+.hex-cell:hover p, .hex-cell:focus p,
+.hex-cell:hover .hex-award img {
+opacity:1;
+transition: 0.8s;
 }
